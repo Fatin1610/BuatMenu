@@ -17,20 +17,25 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        background-color: rgb(181, 185, 192);
     }
 
     .menu_ul li {
-        display: inline;
+        float: left;
     }
 
-    .menu_ul a {
-
-        text-decoration: none;
-        font-family: 'Times New Roman', Times, serif;
+    .menu_ul li a {
+        display: block;
         font-size: 20px;
-        padding: 8px;
-        color: rgb(17, 71, 16);
-        background-color: floralwhite;
+        color: rgb(59, 71, 25);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .menu_ul li a:hover {
+        background-color: rgb(212, 129, 205);
     }
 </style>
 
@@ -44,6 +49,7 @@
 
                 <li><a href="#utama">Laman Utama</a></li>
                 <li><a href="#produk">Senarai Produk</a></li>
+                <li><a href="#sumber">Matlumat Sumber</a></li>
                 <li><a href="#tempah">Borang Tempahan</a></li>
                 <li><a href="#hubungi">Hubungi Kami</a></li>
 
